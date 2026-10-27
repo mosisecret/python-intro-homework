@@ -1,0 +1,12 @@
+number = int(input("Enter a number, positive or negative. "))
+if number <0:
+    print (f"{number} is negative.")
+elif number >0:
+    print (f"{number} is positive.")
+else:
+    print (f"{number} is neither positive nor negative.")
+
+if (number % 2) == 0:
+    print (f"{number} is even.")
+else: 
+    print (f"{number} is odd.")
