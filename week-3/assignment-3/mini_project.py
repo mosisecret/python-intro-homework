@@ -8,7 +8,7 @@ fallback = True
 if (today != "monday") and (today != "tuesday") and (today != "wednesday") and (today != "thursday") and (today != "friday") and (today != "saturday") and (today != "sunday"): 
     fallback = False
     print ("I didn't recognize the day you entered. Spell out one of the seven days of the week.")
-if (time != "morning") and (time != "afternoon") and (time != "evening"): 
+elif (time != "morning") and (time != "afternoon") and (time != "evening"): 
     fallback = False
     print ("I didn't recognize the time of day. Write 'morning,' 'afternoon, or 'evening'.")
 
